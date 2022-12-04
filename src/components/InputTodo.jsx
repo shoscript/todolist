@@ -1,5 +1,5 @@
 const style = {
-  backgroundColor: "#d1ffff",
+  backgroundColor: "#00ffff",
   width: "400px",
   height: "30px",
   borderRadius: "8px",
