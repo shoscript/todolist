@@ -3,20 +3,22 @@ body {
 }
 
 input {
-  border-radius: 16px;
+  border-radius: 4px;
   border: none;
   padding: 6px 16px;
   outline: none;
 }
 
 button {
-  border-radius: 16px;
+  border-radius: 4px;
   border: none;
-  padding: 4px 16px;
+  padding: 4px 8px;
+  margin-left: 8px;
+  background-color: #ccc;
 }
 
 button:hover {
-  background-color: #ff7fff;
+  background-color: #bf7fff;
   color: #fff;
   cursor: pointer;
 }

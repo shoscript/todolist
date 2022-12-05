@@ -1,5 +1,5 @@
 const style = {
-  backgroundColor: "#ffffe0",
+  backgroundColor: "#93ffc9",
   width: "400px",
   minHeight: "200px",
   padding: "8px",
@@ -11,7 +11,7 @@ export const CompleteTodos = (props) => {
   const { todos, onClickBack } = props;
   return (
     <div style={style}>
-      <p className="title">COMPLETE TODO</p>
+      <p className="title">COMPLETE</p>
       <ul>
         {todos.map((todo, index) => {
           return (

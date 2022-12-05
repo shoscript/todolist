@@ -1,5 +1,5 @@
 const style = {
-  backgroundColor: "#d6ffe2",
+  backgroundColor: "#ff93c9",
   width: "400px",
   minHeight: "200px",
   padding: "8px",
@@ -11,7 +11,7 @@ export const IncompleteTodos = (props) => {
   const { todos, onClickComplete, onClickDelete } = props;
   return (
     <div style={style}>
-      <p className="title">INCOMPLETE TODO</p>
+      <p className="title">INCOMPLETE</p>
       <ul>
         {todos.map((todo, index) => {
           return (
